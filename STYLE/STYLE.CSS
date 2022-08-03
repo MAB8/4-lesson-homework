@@ -252,6 +252,14 @@ p {
     align-items: center;
     color: #fff;
 }
+
+
+
+/* ----media---- */
+
+
+
+
 @media (min-width: 0px) and (max-width:780px){
     .navbar-nav a, select, button{
         display: none;
@@ -266,11 +274,11 @@ p {
 }
 
 .fa-brands {
-    font-size: 10px;
+    font-size: 20px;
     color: blue;
 }
 .link {
-    font-size: 10px;
+    font-size: 20px;
 }
 
 .section_1 .liks_box {
@@ -291,12 +299,33 @@ p {
     max-width: 0%;
 }
 .liks_box{
-    display: block;
+    display: flow-root;
 }
 .img_box {
     display: flex;
     justify-content: column;
     margin: 5px 0;
+}
+.img_2{
+    width: 336px;
+    height: 188px;
+}
+.img_box{
+    display: flow-root;
+}
+
+.calls{
+    display: flow-root;
+}
+.additional_information{
+    display: flow-root;
+    text-align: center;
+}
+.box_2{
+    display: flow-root;
+}
+.end_info p{
+    text-align: center;
 }
 
 }
