@@ -42,20 +42,27 @@ p {
     font-size: 15px;
 }
 
-header {
+.navigation{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-}
-
-.logo {
-    margin-right: auto;
-}
-
-.logo img {
-    margin-left: 100px;
-    margin-right: 25px
-}
+  }
+  
+  .logo{
+    margin: auto;
+  }
+  .navbar-nav{
+    margin: 0 20px;
+  }
+  
+  .navbar-nav select{
+    border: none;
+    background-color: none;
+  }
+  
+  .navbar-nav i{
+    display: none;
+  }
 
 .logo a {
     border-left: #111 solid 1px;
@@ -99,7 +106,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 35%;
+    max-width: 45%;
     margin: 20px;
     border: solid #fff;
     border-radius: 5px;
@@ -114,11 +121,6 @@ header {
 
 .link {
     font-size: 20px;
-    background-color: #3CC8AE;
-    padding: 5px 2px;
-    color: #fff;
-    border-radius: 5px;
-    margin-bottom: 10px;
 }
 
 .box_1 {
@@ -250,18 +252,51 @@ header {
     align-items: center;
     color: #fff;
 }
-.burger{
-    display: none;
-}
 @media (min-width: 0px) and (max-width:780px){
-  .nav li{
-    display: none;
-  }
-  .nav i{
-    margin: auto;
-  }
+    .navbar-nav a, select, button{
+        display: none;
+    }
+    .navbar-nav i{
+        display: block;
+    }
 
-  header{
-    margin: 25px;
-  }
+    .section_1 img {
+        width: 336px;
+        height: 188px;
+}
+
+.fa-brands {
+    font-size: 10px;
+    color: blue;
+}
+.link {
+    font-size: 10px;
+}
+
+.section_1 .liks_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 90%;
+    margin: 5px;
+}
+
+.container{
+    max-width: 80%;
+}
+.container_3{
+    max-width: 80%;
+}
+.container_{
+    max-width: 0%;
+}
+.liks_box{
+    display: block;
+}
+.img_box {
+    display: flex;
+    justify-content: column;
+    margin: 5px 0;
+}
+
 }
